@@ -1,0 +1,129 @@
+body {
+  background-color: rgb(76, 5, 81);
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  margin: 50px;
+  color:aliceblue;
+  text-align: justify;
+}
+
+.contenedor {
+  display: grid;
+  grid-template: 2fr 2fr 2fr 2fr / 2fr 2fr 2fr 2fr;
+  background-color: rgb(242, 195, 236);
+  padding: 0.5px;
+  height: auto;
+}
+
+.contenedor > div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  border: 0.5px solid rgb(20, 20, 20);
+}
+
+.one {
+  background-image: url(../assets/img/1.jpg);
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.two {
+  background-image: url(../assets/img/2.jpg);
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.three {
+  background-image: url(../assets/img/3.jpg);
+  grid-column: 1;
+  grid-row: 3;
+}
+
+.four {
+  background-image: url(../assets/img/4.jpg);
+  grid-column: 1;
+  grid-row: 4;
+}
+
+.five {
+  background-image: url(../assets/img/5.jpg);
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.six {
+  background-image: url(../assets/img/6.jpg);
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.seven {
+  background-image: url(../assets/img/7.jpg);
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.eight {
+  background-image: url(../assets/img/8.jpg);
+  grid-column: 2;
+  grid-row: 4;
+}
+
+.nine {
+  background-image: url(../assets/img/9.jpg);
+  grid-column: 3;
+  grid-row: 1;
+}
+
+.ten {
+  background-image: url(../assets/img/10.jpg);
+  grid-column: 3;
+  grid-row: 2;
+}
+
+.eleven {
+  background-image: url(../assets/img/11.jpg);
+  grid-column: 3;
+  grid-row: 3;
+}
+
+.twelve {
+  background-image: url(../assets/img/12.jpg);
+  grid-column: 3;
+  grid-row: 4;
+}
+
+.thriteen {
+  background-image: url(../assets/img/13.jpg);
+  grid-column: 4;
+  grid-row: 1;
+}
+
+.fourteen {
+  background-image: url(../assets/img/14.jpg);
+  grid-column: 4;
+  grid-row: 2;
+}
+
+.fifteen {
+  background-image: url(../assets/img/15.jpg);
+  grid-column: 4;
+  grid-row: 3;
+}
+
+.sixteen {
+  background-image: url(../assets/img/16.jpg);
+  grid-column: 4;
+  grid-row: 4;
+}
+
+footer {
+  margin: 100px;
+  color: aliceblue;
+  text-align: end;
+}
